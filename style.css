@@ -1,0 +1,62 @@
+* {
+  text-decoration: none;
+}
+body {
+  background-color: chartreuse;
+  margin: 0.5;
+}
+
+#stone {
+  border-radius: 30%;
+}
+#logo {
+  margin-left: 120px;
+  border-radius: 20px;
+}
+nav a[href*="mytopnav"] {
+  padding: 50px;
+  border-width: 3px;
+  border-top-left-radius: 8px;
+}
+p1 {
+  box-sizing: border-box;
+}
+#g {
+  width: 25%;
+  /* margin: 25px 25px; */
+  margin: calc(10% / 6);
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
+}
+#b {
+  width: 25%;
+  /* margin: 25px 25px; */
+  margin: calc(10% / 6);
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
+}
+#c {
+  width: 30%;
+  /* margin: 25px 25px; */
+  margin: calc(10% / 6);
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
+}
+img {
+  width: 30%;
+  border-radius: 30%;
+}
+nav {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  margin-left: 25px;
+  padding: 10px 0;
+}
+#mytopnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-size: bold;
+  padding: 50px;
+}
